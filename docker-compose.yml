@@ -1,0 +1,13 @@
+#  Docker compose (significa composição)
+
+services:
+
+  postgres:
+    image: postgres
+    container_name: postgresdb
+    environment: 
+      POSTGRES_USER: frankdb
+      POSTGRES_PASSWORD: --devBack
+      POSTGRES_DB: nestjs
+    ports:
+      - "5432:5432"
