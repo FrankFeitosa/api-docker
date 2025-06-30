@@ -6,8 +6,8 @@ services:
     image: postgres
     container_name: postgresdb
     environment: 
-      POSTGRES_USER: frankdb
-      POSTGRES_PASSWORD: --devBack
-      POSTGRES_DB: nestjs
+      POSTGRES_USER: backend
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: dbnest
     ports:
-      - "5432:5432"
+      - "5433:5432"
