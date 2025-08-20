@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "resolvePackageJsonExports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
+=======
+    "module": "commonjs",
+>>>>>>> 2e948c68ca15c33fa0f29835454cdfe5d783a808
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
